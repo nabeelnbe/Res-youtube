@@ -1,0 +1,123 @@
+.navigation-bar {
+    position: fixed;
+    width: 99%;
+    z-index: 100;
+    background: white;
+    
+}
+.nav-item a:hover{
+    background-color: #ababab;
+}
+
+.menu-button{
+    
+    border: 0;
+    background-color: #fff;
+    
+}
+.menu-button:hover{
+    background-color: #ede5e5;
+    
+    
+}
+.side-bar{
+    padding-top: 20px;
+    width: 230px;
+    position: fixed;
+    height: 96%;
+    left: 0;
+    top: 50px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+.nav-link{
+    color:black ;
+}
+.nav-link span{
+    padding-left: 15px;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+ul p{
+    padding-left: 20px;
+}
+.footer{
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-size: small;
+}
+.footer p{
+   padding-bottom: 50px;
+   padding-left: 20px;
+   
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255);
+
+}
+::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 3px;
+}
+
+.chip-container{
+    
+    padding-top: 80px;
+    margin-left: 230px; 
+    z-index: 98;
+    padding-left: 20px;
+    
+}
+
+.chip-container .chip{
+    
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.05);;
+    border: 1px solid  rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 15px;
+    margin-left: 10px;
+    
+}
+.chip-container .active{
+    background: black;
+    color: #fff;
+}
+.chip:hover{
+    background-color: #ede5e5;
+    cursor: pointer;
+}
+.row a{
+    
+    text-decoration: none;
+}
+.chips {
+    margin-left: 200px;
+    
+}
+.chips a .card-video-details{
+    border-radius: 50px;
+}
+.chard-video .card-video-details img{
+    border-radius: 50px;
+}
+.chard-video .card-video-details h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    
+}
+.chard-video .card-video-details div{
+    color: grey;
+    font-size: 13px;
+    
+}
